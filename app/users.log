@@ -1,0 +1,16 @@
+ERROR:root:User with this email already exists
+ERROR:root:Error in creating new user : User with this email already exists
+ERROR:main:failed to create user, user exists already
+ERROR:main:Unable to login Unable to login
+ERROR:main:Error occurred: module 'jwt' has no attribute 'decode'
+INFO:root:User created
+INFO:user_folder.user_service:User Created
+INFO:main:User Created
+ERROR:main:Unable to login Unable to login
+ERROR:main:Unable to login Unable to login
+ERROR:main:Unable to login Unable to login
+INFO:user_folder.user_service:User Logged in
+INFO:main:User Logged in
+INFO:user_folder.user_service:User Logged in
+INFO:main:User Logged in
+INFO:main:User data retrieved: {'email': 'string', 'password': 'string'}
