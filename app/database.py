@@ -1,6 +1,7 @@
 import sqlite3
 
-con = sqlite3.connect("/mnt/c/Computer_science/devops/revature/revhire/revhire.db")
+# con = sqlite3.connect("/mnt/c/Computer_science/devops/revature/revhire/revhire.db")
+con = sqlite3.connect("revhire/revhire.db") 
 
 cursor = con.cursor()
 

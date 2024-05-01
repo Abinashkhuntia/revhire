@@ -18,8 +18,8 @@ pipeline {
                     credentialsId: 'dockerhub',
                     passwordVariable: 'PASS', usernameVariable: 'USER')]) {
                     sh "echo $PASS | docker login -u $USER --password-stdin"
-                    sh "docker build -t ${IMAGE}:lts ."
-                    sh "docker push ${IMAGE}:lts"
+                    sh "docker build -t ${IMAGE} ."
+                    sh "docker push ${IMAGE}"
                 }
             }
         }

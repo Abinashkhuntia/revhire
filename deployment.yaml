@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: abinash8/myrepo:lts
+        image: abinash8/myrepo
         ports:
         - containerPort: 8000
         

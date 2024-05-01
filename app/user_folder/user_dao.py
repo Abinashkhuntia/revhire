@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 class UserDAO:
     # con = sqlite3.connect("/mnt/c/Computer_science/devops/revature/revhire/revhire.db", check_same_thread=False)
-    con = sqlite3.connect("/code/revhire.db", check_same_thread=False) # for docker
+    con = sqlite3.connect("/revhire/revhire.db", check_same_thread=False) # for docker
 
     cursor = con.cursor()
 
